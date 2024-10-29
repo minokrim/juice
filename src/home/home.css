@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home-body{
+    display: flex;
+    width: 100%;
+}
+.home-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.home-left h1{
+font-family: Jost;
+font-size: 50px;
+font-weight: 600;
+text-align: left;
+color: #473525E5;
+width: 100%;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+.home-left p{
+margin-top: 0;
+padding-top: 0;
+font-family: Jost;
+font-size: 20px;
+font-weight: 400;
+line-height: 39.02px;
+text-align: left;
+}
+.home-button{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+#btn-1{
+    width: 147px;
+height: 67px;
+top: 644px;
+left: 98px;
+gap: 0px;
+border-radius: 10px;
+border: transparent;
+opacity: 0px;
+background-color: #473525C7;
+color: white;
+font-family: Quicksand;
+font-size: 22px;
+font-weight: 600;   
+}
+#btn-2{
+    width: 147px;
+height: 67px;
+top: 644px;
+left: 266px;
+gap: 0px;
+border-radius: 10px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+color: #473525E5;
+border-color: #3A2818;
+background-color: transparent;
+font-family: Quicksand;
+font-size: 22px;
+font-weight: 600;
+}
+.home-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: left;
+}
+.home-right img{
+    max-width: 100%;
+    height: 30rem;
+}
+
+
+@media screen and (max-width:600px) {
+.home-body{
+    flex-direction: column;
+}
+.home-left{
+    width: 100%;
+}
+.home-right{
+    width: 100%;
+    margin-top: 20px;
+
+}
+}
