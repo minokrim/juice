@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
 .nav-main{
 display: flex;
 flex-direction: column;
@@ -23,8 +24,6 @@ opacity: 0px;
 }
 .nav-options{
 display: flex;
-width: Hug (400px)px;
-height: Hug (28px)px;
 top: 86px;
 left: 428px;
 gap: 35px;
