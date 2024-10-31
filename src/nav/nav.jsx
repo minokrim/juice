@@ -1,12 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import "./nav.css"
 import logo from "../image/logo.png"
-// import hamburger from "../image/more.png"
+import hamburger from "../image/more.png"
 export default function Navigation(){
-    // const [mobileNav,setMobileNav]=useState(false)
-    // function showNav(){
-    //     setMobileNav(!mobileNav)
-    // }
+    const [mobileNav,setMobileNav]=useState(false)
+    function showNav(){
+        setMobileNav(!mobileNav)
+    }
 
     return <div className="nav-main">
         <section className="nav-body">
@@ -22,7 +22,7 @@ export default function Navigation(){
             </div>
         </section>
 
-        {/* <section className="mobile-nav-body">
+        <section className="mobile-nav-body">
         <img src={logo} alt="logo" />
             <img src={hamburger} alt="" className="hamburger" onClick={showNav}/>
         </section>
@@ -35,6 +35,6 @@ export default function Navigation(){
                 <p>Contact</p>
                 <button>Sign up</button>
             </div>
-        )} */}
+        )}
     </div>
 }
