@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./nav.css"
 import logo from "../image/logo.png"
-import hamburger from "../image/more.png"
+// import hamburger from "../image/more.png"
 export default function Nav(){
-    const [mobileNav,setMobileNav]=useState(false)
+    // const [mobileNav,setMobileNav]=useState(false)
     // function showNav(){
     //     setMobileNav(!mobileNav)
     // }
