@@ -4,10 +4,10 @@ import Home from "../home/home";
 import Features from "../features/features";
 import Menu from "../menu/menu";
 import Contact from "../contact/contact";
-import Navigation from "../nav/nav";
+import Header from "../header/header";
 export default  function Body(){
     return <div className="body-main">
-        <Navigation/>
+        <Header/>
         <Home/>
         <Features/>
         <Menu/>
