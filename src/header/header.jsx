@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../image/logo.png"
-
+import logo from "../image/logo.png";
+import "./header.css";
 export default function Header (){
     return <div className="nav-main">
     <section className="nav-body">
