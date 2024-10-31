@@ -48,7 +48,7 @@ top: 2789px;
 left: 123.49px;
 gap: 0px;
 border-radius: 20px;
-opacity: 0px;
+
 }
 .email{
 width: 324.37px;
@@ -57,7 +57,7 @@ top: 2789px;
 left: 123.49px;
 gap: 0px;
 border-radius: 20px;
-opacity: 0px;   
+   
 }
 .message{
 width: 442.33px;
@@ -66,7 +66,7 @@ top: 2961.75px;
 left: 123.49px;
 gap: 0px;
 border-radius: 20px;
-opacity: 0px;
+
 }
 button{
 margin-top: 20px;
@@ -76,7 +76,7 @@ top: 3117px;
 left: 127px;
 gap: 0px;
 border-radius: 13px;
-opacity: 0px;
+
 background-color: #FFA500;
 
 font-size: 24px;
